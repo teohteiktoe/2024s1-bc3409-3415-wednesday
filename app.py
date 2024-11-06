@@ -6,7 +6,7 @@ import sqlite3
 import datetime
 
 
-api = os.getenv("MAKERSUITE_API_KEY)
+api = os.getenv["MAKERSUITE_API_KEY"]
 genai.configure(api_key=api)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
