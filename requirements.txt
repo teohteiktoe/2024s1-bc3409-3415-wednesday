@@ -1,4 +1,5 @@
 flask
 gunicorn
 google-generativeai
+pysqlite3
 textblob
